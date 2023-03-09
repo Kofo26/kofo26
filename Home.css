@@ -1,0 +1,630 @@
+*{
+    box-sizing:border-box;
+    font-family: "poppins";
+    margin: 0px;
+  
+}
+
+.header_container {
+    position:fixed;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    background:rgba(255, 255, 255,0.8);
+    width: 100%;
+
+}
+.logo{
+
+    align-self: center;
+}
+ img{
+    width: 100px;
+    margin:auto 50px;
+}
+body {
+    background: black;
+}
+
+.menu {
+    justify-self:center;
+    align-self:center;
+}
+
+ul li,
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    color: green;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600px;
+}
+
+ul li a:hover{
+    color: black;
+    letter-spacing: 1px;
+    border-bottom: 2px solid black;
+    transition: 3s ease-in-out;
+}
+.menu ul li .active {
+    color: black;
+    letter-spacing: 1px;
+    border-bottom: 2px solid black;
+}
+.btn {
+    justify-self: center;
+    align-self: center;
+}
+button {
+    background: yellow;
+    border-radius: 20px;
+    color: black;
+    font-size: 12px;
+    display:block;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 2px ;
+    /* margin:20px auto; */
+
+}
+
+button:hover{
+    background: red;
+    color: aliceblue;
+    transition: 1.0s;
+}
+
+/* body */
+.body_container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(./img/gallery/food1.jfif) ;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+}
+h1:last-child {
+    color: yellow;
+    font-size: 100px;
+    font-family: "roboto-slab";
+    margin: 0px;
+    /* padding-bottom:100px ; */
+    padding: 0px 0px 150px 20px;
+    line-height: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    line-height: 100px;
+    /* padding-top:100px ; */
+    padding:100px 0px 0px 20px;
+}
+.line {
+    background-color: yellow;
+    width: 10px;
+    height: 200px;
+    align-self: center;
+    margin-left: 50px;
+}
+.sec {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    display:flex;
+    flex-basis: 1fr 1fr 1fr;
+    align-self: center;
+    justify-content: center;
+   
+    
+
+}
+.one{
+    background: white;
+    border-radius: 5px;
+    width: 300px;
+    padding:5px;
+    margin: 30px 30px;
+    box-shadow: rgba(0, 0, 0,0.7) 2px 2px 9px;
+}
+.one img {
+    margin: 0px;
+    width:100% ;   
+}
+
+p{
+    font-size: 10px;
+    padding: 20px 10px;
+    
+}
+
+.item7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./img/meals/meal-2.jpg);
+    background-repeat: none;
+    background-size: cover; 
+    margin: 0px;
+    max-height: 800px;
+}
+.image_container {
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 65%;
+    margin:auto;
+
+
+}
+.food {
+    width: 200px;
+    height:220px;
+    background-color: white;
+    margin: 5px auto;
+    /* padding: 10px; */
+    text-align: center;
+    
+}
+.food img {
+    width:75px;
+    border-radius: 50%;
+    padding: 0px auto;
+}
+.food p {
+    margin:0px;
+    color: black;
+    padding: 1px 0px;
+}
+.food h6 {
+    font-size: 12px;
+    color: black;
+    margin:1px;
+    padding: 1px; 
+}
+span {
+    color: red;
+    text-decoration: line-through;
+}
+.btn1 {
+    margin:0px auto;
+    padding: 8px;
+    font-size: 10px;
+    transition: 3s;
+    box-shadow: solid 2px 2px 2px rgba(20, 1, 1, 0.226);
+}
+
+h3 {
+    color: yellow;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding:40px 0px 0px ;
+    line-height: 40px;   
+}
+.pl {
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin: 0px auto;
+}
+h3 span {
+    color: white;
+    text-decoration: none;
+}
+/* third step */
+.menu_order {
+    background-image: url(./img/food-menu/this.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+    margin: 0px;
+    
+}
+.foodM {
+    border-bottom: solid white 1px;
+}
+.foodM p {
+    color: yellow;
+}
+.menu_list_container {
+    display: flex;
+    width: 100%;
+    flex-basis: 1fr 1fr 1fr;
+    justify-content: center;   
+}
+.menu_list {
+    background-color: grey;
+    margin: 10px 30px ;
+    padding: 0px;
+    width: 300px;
+    height: max-content;
+}
+.foodM {
+    display:flex;
+    margin: 5px auto;
+    background: none;
+
+    width: max-content;
+    height: 40px;
+    padding: 0px 10px;
+}
+.foodM img {
+    border-radius: 50%;
+    align-self: center;
+    width: 25px;
+    margin: 2px;
+    height: 25px;
+}
+#contact{
+    padding: 20px;
+    align-self: center;
+
+}
+.menu_order h1 {
+    text-align: center;
+    margin: 20px 0px;
+    text-shadow: rgba(0, 0, 0, 0.9) 3px 3px 5px;
+}
+.menu_order span {
+    text-decoration: none;
+    color: yellow;
+}
+#contact p {
+    color: white;
+    border-bottom:solid 1px white;
+    padding: 10px; 
+    font-size: 10px;  
+}
+
+#contact button {
+    color:white;
+    background-color: grey;
+    border-radius: 0px;
+    margin: 10px auto;
+    border: solid white 1px;
+}
+#contact button:hover {
+    background: yellow;
+    color: white;
+}
+#contact button:active {
+    background: black;
+    box-shadow: 0 5px #666;
+    color: antiquewhite;
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+    transition: background, letter-spacing 0.8s;
+}
+
+.att {
+    height: 200px;
+    display: flex;
+    flex-basis: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.msg  {
+   margin: 0px 30px;
+   justify-self: end;
+    
+}
+.msg img {
+    width: 50px;
+    width: 50px;
+    margin: 0px; 
+    padding-top: 20px
+
+}
+#esp {
+    width: 50px;
+    padding-top: 50px;
+}
+.msg h3 {
+    padding:0px;
+    margin: 0px;
+    line-height: 20px;
+    font-size: 20px;
+}
+.msg p {
+    color: white;
+}
+.psue {
+ 
+}
+.contactus {
+    margin: 50px;
+    position:absolute;
+    display: flex;
+    flex-basis: 1fr 1fr;
+    position: static;
+    width: max-content;
+}
+#two {
+    width: 120px;
+    position: absolute;
+    z-index: 0;
+    left: 35px;
+}
+#three {
+    width: 150px;
+    position: relative;
+    top:0px;
+    left:-150px;
+    z-index: 50;
+}
+#one {
+    width: 120px;
+    position: relative;
+    left:200px;
+    bottom: 30px;
+    z-index: 100;
+
+}
+
+.psue button{
+    offset-distance: 2px;
+    padding:15px 30px ;
+    border-radius: 0px;
+    margin: 0px auto;
+    font-size: 15px;
+
+}
+.psue h3 {
+   display: flex;
+    font-size: 80px;  
+}
+
+.psuedo::before {
+    content: "";
+    animation: animate infinite 5s;
+    padding-left: 10px;
+    color: white;
+    animation-delay: 2s;
+}
+@keyframes animate {
+    0% {
+        content: "offer tasty food";
+    }
+
+    50% {
+        content: "are Focused";
+    }
+
+    75% {
+        content: "put you first";
+    }
+
+    100% {
+        content: "Prompt";
+    }
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 1fr;
+  background: grey;
+  width: 100vw;
+  height: max-content;
+}
+.One {
+  margin: 0px 0px 50px 80px;
+  padding: 5px 10px;
+  background: yellow;
+}
+
+.line1 {
+  height: 0.005px;
+  width: 200px;
+  margin: 0px;
+
+  opacity: 0.5;
+}
+.p3 {
+  font-size: 14px;
+  color:green;
+  font-family: poppins;
+  text-align: center;
+}
+.p4 {
+  font-size: 14px;
+  color: white;
+  font-family: poppins;
+  margin: 0px 0px 0px 0px;
+  padding-left: 80px;
+  float: center;
+  display: inline;
+  text-align: center;
+}
+ul {
+  text-decoration: none;
+  
+}
+.One {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: yellow;
+  height: 100%;
+}
+h4{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  -webkit-text-stroke:2px grey;
+  color: aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+.our-client{
+  background-color: aliceblue;
+  margin: 0px;
+}
+.our-client img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.One a {
+  width: 200px;
+  text-align: left;
+  align-content: center;
+  font-size: 10px;
+  font-family: poppins;
+  color:black;
+  text-decoration: none;
+  line-height: 50px;
+}
+li a:active {
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+li a:hover {
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+/* section two */
+.two {
+  margin: 30px 20px 50px 80px;
+}
+.news {
+  font-size: 8px;
+  font-family: poppins;
+  color: orange;
+  text-decoration: none;
+  text-align: left;
+}
+.line2 {
+  height: 0.005px;
+  width: 230px;
+  float: center;
+  margin: 1px 05px 1px 05px;
+  opacity: 0.5;
+}
+.smoll {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  padding-left: 2px;
+  transform: background, letter-spacing 0.5s;
+}
+.smoll:active {
+  color: orange;
+  transform: scale(0.9);
+}
+.three {
+  margin: 30px 20px 50px 80px;
+}
+form {
+  width: fit-content;
+  margin: 20px;
+  float: center;
+}
+label {
+  font-family: poppins;
+  font-size: 12px;
+  color: orange;
+}
+input [type="text"] input [type="email"] {
+  border: solid;
+  border: black;
+  border-radius: 100px;
+  text-align: left;
+  font-family: poppins;
+  font-size: 15px;
+}
+
+/* button {
+  margin: 0px 0px 0px 40px;
+  padding: 5px 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: poppins;
+  font-size: 15px;
+  color: white;
+  border: none;
+  
+} */
+button:active {
+  color: yellow;
+  background: white;
+  transform: scale(0.8);
+}
+
+.four {
+  margin: 0px 80px 50px 70px;
+}
+.social2 {
+  width: 31px;
+  display: block;
+  float: center;
+  margin: 30px 100px 10px 100px;
+}
+.social {
+  width: 30px;
+  display: block;
+  float: center;
+  margin: 0px 100px 10px 100px;
+}
+.social1 {
+  width: 35px;
+  display: block;
+  float: center;
+  margin: 0px 100px 10px 100px;
+}
+.social:active {
+  background: white;
+}
+.last {
+  background: black;
+  width: 100vw;
+  height: 50px;
+  z-index: 1;
+}
+h6 {
+  color: white;
+  font-family: poppins;
+  font-weight: 500px;
+  font-size: 10px;
+  line-height: 24px;
+  padding: 15px 0px 20px 0px;
+  margin: 0px 80px 0px 80px;
+  text-align: center;
+  margin: 0px;
+}
+span {
+  text-decoration: none;
+  color: orange;
+}
+.continue {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  padding: 0px 0px 20px 80px;
+  margin: 0px;
+}
+.ficon {
+  width: 20px;
+  float: right;
+  margin-right: 80px;
+  margin-top: -2px;
+  opacity: 0.4;
+}
+.ficon1 {
+  width: 20px;
+  float: right;
+  opacity: 0.4;
+  margin-top: -2px;
+}
+
+/* .p8 {
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  font-size: 40px;
+} */
+
+
+
